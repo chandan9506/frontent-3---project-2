@@ -1,0 +1,25 @@
+body{
+    padding:20px;
+   
+}
+#searchedTimeZoneContainer{
+    background-color:black;
+    color:white;
+}
+#currentTimeZone{
+    border:2px solid black;
+    padding:20px
+}
+
+#latContainer{
+    display:flex;
+    justify-content: flex-start;
+}
+#searchedTimeZone{
+    display: none;
+    padding:20px;
+    border:2px solid black;
+}
+.long1{
+    margin-left:50px;
+}

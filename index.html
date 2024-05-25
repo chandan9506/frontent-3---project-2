@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetching location</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="currentTimeZoneContainer">
+        <h1>TimeZone API</h1>
+        <h2>Your Current Time Zone</h2>
+        <div id="currentTimeZone">
+            <p>Name of Time Zone :<span id="timeZoneName"></span></p>
+            <div id="latContainer"><p >Lat :<span id="lat"></span> </p>  <p class="long1">Long :<span id="long"></span></p></div>
+            <p>Offset STD :<span id="std"></span></p>
+            <p>Offset STD Seconds :<span id="stdSeconds"></span></p>
+            <p>Offset DST :<span id="dst"></span></p>
+            <p>Offset DST Seconds :<span id="dstSeconds"></span></p>
+            <p>Country :<span id="country"></span></p>
+            <p>Postcode :<span id="postcode"></span></p>
+            <p>City :<span id="city"></span></p>
+        </div>
+    </div>
+    <div id="searchedTimeZoneContainer">
+        <h1>Enter Address</h1>
+        <input  type="text" id="inputAddress" >
+        <br><br>
+        <button onclick="showResult()">Submit</button>
+        <h2>Your Result</h2>
+        <div id="searchedTimeZone">
+            <p>Name of Time Zone :<span id="timeZoneName1"></span></p>
+            <div id="latContainer"><p>Lat :<span id="lat1"></span></p>   <p class="long1">Long :<span id="long1"></span></p></div>
+            <p>Offset STD :<span id="std1"></span></p>
+            <p>Offset STD Seconds :<span id="stdSeconds1"></span></p>
+            <p>Offset DST :<span id="dst1"></span></p>
+            <p>Offset DST Seconds :<span id="dstSeconds1"></span></p>
+            <p>Country :<span id="country1"></span></p>
+            <p>Postcode :<span id="postcode1"></span></p>
+            <p>City :<span id="city1"></span></p>
+
+        </div>
+        <div id="search"></div>
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
